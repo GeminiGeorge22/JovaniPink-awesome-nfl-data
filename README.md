@@ -54,6 +54,7 @@ Programmatic and bulk access for research. Check dataset-specific licenses, upda
 - [nflfastR](https://nflfastr.com/) - MIT-licensed R package and methodology hub for cleaning play-by-play and computing expected points and win probability fields used across nflverse.
 - [SportsDataIO NFL API](https://sportsdata.io/developers/api-documentation/nfl) - Commercial HTTP API for scores, statistics, play data, fantasy, projections, odds, news, and images; access depends on the purchased feed.
 - [Sportradar NFL API](https://developer.sportradar.com/football/docs/nfl-ig-api-basics) - Licensed B2B REST feeds for production applications that need structured schedules, rosters, statistics, and play-by-play with vendor support.
+- [EndzoneAPI](https://endzoneapi.com/) - Unofficial paid HTTP and MCP API with a limited free credit allowance for NFL play-by-play, model metrics, statistics, injuries, depth charts, snap counts, and bookmaker odds; its terms restrict standalone data redistribution and raw odds feeds, while separately open-licensed upstream data retains its own terms. Coverage and accuracy beyond the public documentation have not been independently qualified.
 
 For live or preseason games, begin with NFL Scores or a licensed API. nflfastR's published
 play-by-play files contain regular-season and postseason games, not preseason. During the season,
@@ -61,10 +62,12 @@ nflverse schedule data refreshes every five minutes; cleaned play-by-play and pl
 update nightly after game days, raw play-by-play is usually available within 15 minutes after a game,
 and Thursday's refresh is the cleanest version after NFL stat corrections.
 
-Do not depend on nflverse participation or injury files for current in-season reporting.
-Participation data from 2023 onward is released only after the postseason, and the nflverse injury
-source currently stops after 2024 with no replacement ETA. Use the official NFL injury reports for
-current weekly designations.
+Do not depend on nflverse participation files for current in-season reporting.
+Participation data from 2023 onward is released only after the postseason.
+The nflverse injury release now includes 2025 and 2026 files; its publisher documents
+daily updates at 7AM UTC during the season. File availability does not establish
+complete current-week coverage: inspect the season, weeks, and retrieval timestamp.
+Use the official NFL injury reports for current weekly designations.
 
 ## Analytics, Charting & Tracking
 
@@ -76,7 +79,7 @@ These sources add models, human classifications, grades, or tracking-derived fie
 - [Sports Info Solutions Football](https://www.sportsinfosolutions.com/football/) - Professional NFL and college charting, advanced metrics, and commercial data feeds, including Total Points; its legacy DataHub also retains a free public tier.
 - [RBSDM](https://rbsdm.com/) - Public EPA-based team and player dashboards built from play-by-play data.
 - [nfelo](https://www.nfeloapp.com/) - Elo ratings, team tiers, quarterback adjustments, game projections, and model-focused NFL analysis.
-- [NoPunt](https://www.nopunt.com/) - Model estimates of win probability, margin, and confidence for regular-season NFL games, with a public JSON API. The publisher distinguishes retrospective backtests from timestamped live picks; performance claims are not independently verified here, and betting and fantasy tools require a subscription.
+- [NoPunt](https://www.nopunt.com/) - Model estimates of win probability, margin, and confidence for regular-season NFL games, with a free JSON API that needs no authentication (docs at https://www.nopunt.com/docs) covering per-game model win probability, margin, and confidence tier plus team and power ratings. The publisher distinguishes retrospective backtests from timestamped live picks; performance claims are not independently verified here, and betting and fantasy tools require a subscription.
 - [ESPN Analytics](https://www.espn.com/analytics/) - Public analytical models and explainers, including blocking and pass-rush win-rate work; availability varies by season and feature.
 - [Unexpected Points](https://www.unexpectedpoints.com/) - Current model-driven articles, power rankings, and advanced game reviews; some posts require a subscription, and the podcast feed stopped updating in December 2024.
 

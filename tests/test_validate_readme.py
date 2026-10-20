@@ -77,9 +77,7 @@ RELEASE_SOURCE_CONTRACTS: Final[tuple[ReleaseSourceContract, ...]] = (
             "combine measurements and workout results",
             "does not establish bulk retrieval or redistribution rights",
         ),
-        "forbidden_phrases": (
-            "establishes bulk retrieval or redistribution rights",
-        ),
+        "forbidden_phrases": ("establishes bulk retrieval or redistribution rights",),
     },
 )
 
@@ -329,11 +327,13 @@ class LiveDataGuidanceTests(unittest.TestCase):
     def assert_injury_contract(self, text: str) -> None:
         normalized = " ".join(text.split())
         for clause in (
-            "Do not depend on nflverse participation or injury files for current "
+            "Do not depend on nflverse participation files for current "
             "in-season reporting.",
             "Participation data from 2023 onward is released only after the "
-            "postseason, and the nflverse injury source currently stops after "
-            "2024 with no replacement ETA.",
+            "postseason.",
+            "The nflverse injury release now includes 2025 and 2026 files",
+            "daily updates at 7AM UTC during the season.",
+            "File availability does not establish complete current-week coverage",
             "Use the official NFL injury reports for current weekly designations.",
         ):
             self.assertIn(clause, normalized, "nflverse injury availability boundary")
@@ -354,12 +354,12 @@ class LiveDataGuidanceTests(unittest.TestCase):
     def test_published_pbp_excludes_preseason(self) -> None:
         self.assert_preseason_contract(self.readme)
 
-    def test_injury_gap_and_weekly_alternative_are_explicit(self) -> None:
+    def test_injury_availability_and_weekly_alternative_are_explicit(self) -> None:
         self.assert_injury_contract(self.readme)
 
     def test_guidance_allows_prose_rewrapping(self) -> None:
         rewrapped = self.readme.replace("play-by-play files", "play-by-play\nfiles")
-        rewrapped = rewrapped.replace("2024 with no", "2024\nwith no")
+        rewrapped = rewrapped.replace("2025 and 2026", "2025 and\n2026")
         self.assert_preseason_contract(rewrapped)
         self.assert_injury_contract(rewrapped)
 
@@ -421,10 +421,14 @@ class LiveDataGuidanceTests(unittest.TestCase):
                 "Depend on nflverse",
                 "availability boundary",
             ),
-            ("stops after 2024", "stops after 2025", "availability boundary"),
             (
-                "with no replacement ETA",
-                "with a replacement ETA",
+                "now includes 2025 and 2026 files",
+                "stops after 2024",
+                "availability boundary",
+            ),
+            (
+                "does not establish complete current-week coverage",
+                "establishes complete current-week coverage",
                 "availability boundary",
             ),
             (

@@ -947,6 +947,53 @@
     {
       "corrections": [],
       "dates": {
+        "createdAt": "2026-10-14"
+      },
+      "editorialStatus": "published",
+      "evidenceStatus": "unreviewed",
+      "id": "awesome-nfl-data:source:r-e63736b9d399ee83",
+      "kind": "source",
+      "legacyIds": [],
+      "limitations": [
+        "Catalog inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof.",
+        "This record does not establish a dataset vintage, retrieval snapshot, license grant, or current availability."
+      ],
+      "projectId": "awesome-nfl-data",
+      "provenance": {
+        "methodIds": [],
+        "sourceIds": []
+      },
+      "relationships": [],
+      "schemaVersion": "1.1",
+      "semantics": {
+        "domains": [
+          "sports"
+        ],
+        "entities": [],
+        "tags": [
+          "catalog-resource"
+        ],
+        "topics": [
+          "open-data-apis"
+        ]
+      },
+      "source": {
+        "accessStatus": "unknown",
+        "authorityRole": "unknown",
+        "canonicalUrl": "https://endzoneapi.com/",
+        "license": "Resource-specific terms apply; catalog inclusion grants no license.",
+        "methodologyWarnings": [
+          "Review the publisher methodology, access conditions, license, retrieval date, review date, and as-of meaning before use."
+        ],
+        "publisher": "EndzoneAPI"
+      },
+      "summary": "Unofficial paid HTTP and MCP API with a limited free credit allowance for NFL play-by-play, model metrics, statistics, injuries, depth charts, snap counts, and bookmaker odds; its terms restrict standalone data redistribution and raw odds feeds, while separately open-licensed upstream data retains its own terms. Coverage and accuracy beyond the public documentation have not been independently qualified.",
+      "title": "EndzoneAPI",
+      "visibility": "public"
+    },
+    {
+      "corrections": [],
+      "dates": {
         "createdAt": "2026-08-30"
       },
       "editorialStatus": "published",
@@ -1269,7 +1316,7 @@
         ],
         "publisher": "NoPunt"
       },
-      "summary": "Model estimates of win probability, margin, and confidence for regular-season NFL games, with a public JSON API. The publisher distinguishes retrospective backtests from timestamped live picks; performance claims are not independently verified here, and betting and fantasy tools require a subscription.",
+      "summary": "Model estimates of win probability, margin, and confidence for regular-season NFL games, with a free JSON API that needs no authentication (docs at https://www.nopunt.com/docs) covering per-game model win probability, margin, and confidence tier plus team and power ratings. The publisher distinguishes retrospective backtests from timestamped live picks; performance claims are not independently verified here, and betting and fantasy tools require a subscription.",
       "title": "NoPunt",
       "visibility": "public"
     },

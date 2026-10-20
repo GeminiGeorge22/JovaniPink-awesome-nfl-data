@@ -2,6 +2,12 @@
 
 > A curated list of up-to-date NFL data sources, analytics sites, APIs, tools, film study, and low-noise podcasts. Each item includes a short description and a reliable URL.
 
+Maintained by [Jovani Pink](https://github.com/JovaniPink), with support from The Measured
+Studios and community contributors. This public catalog helps people discover useful
+sources for NFL data and analysis and understand their limitations. Everyone is welcome to
+[suggest a source, report a correction, or contribute](#contributing); no coding is
+required to open an issue. See [reuse and attribution](LICENSING.md).
+
 Last reviewed: August 2026.
 
 The [machine-readable resource index](catalog/resources.v1.json) assigns stable public identifiers while preserving the catalog boundary: inclusion is curation, not endorsement, permission, maintenance proof, or model fitness proof. The index uses schema version 1.1 and retains unknown access and source authority until reviewed evidence is supplied. See the [resource index contract](docs/knowledge-resource-index.md) before using an entry in a model or lab.
@@ -149,15 +155,15 @@ Useful for reproducibility and historical work, but not recommended as the defau
 
 ## Choosing a Data Stack
 
-| Goal                               | Start with                                  | Add when needed                                        |
-| ---------------------------------- | ------------------------------------------- | ------------------------------------------------------ |
+| Goal                               | Start with                                  | Add when needed                                             |
+| ---------------------------------- | ------------------------------------------- | ----------------------------------------------------------- |
 | Live preseason schedules/results   | NFL Scores                                  | Licensed Sportradar or SportsDataIO feed for production use |
-| Personal analysis or modeling      | nflverse + nflreadpy/nflreadr               | DuckDB, FTN charting, Pro Football Reference           |
-| Scheme and film research           | The QB School + Thinking Football           | MatchQuarters, FTN, SumerSports                        |
-| Historical fact-checking           | Pro Football Reference                      | Stathead, Pro Football Archives                        |
-| Contracts and cap analysis         | Over the Cap                                | Spotrac cross-checks and source timestamps             |
-| Player-tracking research           | Big Data Bowl releases                      | Public Next Gen Stats derived metrics                  |
-| Production scores or live products | Licensed Sportradar or SportsDataIO feed    | nflverse historical enrichment and specialist charting |
+| Personal analysis or modeling      | nflverse + nflreadpy/nflreadr               | DuckDB, FTN charting, Pro Football Reference                |
+| Scheme and film research           | The QB School + Thinking Football           | MatchQuarters, FTN, SumerSports                             |
+| Historical fact-checking           | Pro Football Reference                      | Stathead, Pro Football Archives                             |
+| Contracts and cap analysis         | Over the Cap                                | Spotrac cross-checks and source timestamps                  |
+| Player-tracking research           | Big Data Bowl releases                      | Public Next Gen Stats derived metrics                       |
+| Production scores or live products | Licensed Sportradar or SportsDataIO feed    | nflverse historical enrichment and specialist charting      |
 
 Keep these categories distinct in a data model:
 
@@ -184,17 +190,8 @@ or usage terms.
 
 ## Contributing
 
-Spotted a dead link, a better official source, or a high-signal resource? Pull requests are welcome. Keep additions current, specific, and non-promotional; see [contributing.md](contributing.md).
-
-Before opening a pull request, run the dependency-free catalog gate with Python 3.11 or newer:
-
-```sh
-python3 -m unittest discover -s tests -v
-python3 scripts/validate_readme.py README.md
-```
-
-GitHub Actions runs the same checks on Python 3.11 and the current Python 3.14 line for every pull
-request and push to `main`. The validator checks the Contents order and anchors, required files,
-relative links, unique HTTPS resource URLs, and entry formatting. A passing result does not prove
-that external URLs respond, that a source is still maintained, or that its access and licensing
-terms are unchanged; those require human review.
+Help make this catalog more useful: suggest a source, report a broken link, improve a
+limitation, or clarify an explanation. First-time contributors are welcome, and opening
+an issue does not require coding. Start with the [contribution guide](contributing.md).
+We review evidence and disclose affiliations; inclusion is not endorsement or a grant
+of rights to third-party data. Please follow our [Code of Conduct](code-of-conduct.md).

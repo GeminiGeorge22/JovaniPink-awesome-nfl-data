@@ -987,7 +987,7 @@
         ],
         "publisher": "EndzoneAPI"
       },
-      "summary": "Paid HTTP and MCP API with a free tier of 500 credits a month and no card, covering NFL play-by-play since 1999 with EPA and win probability, weekly statistics, injuries, depth charts, snap counts, and bookmaker odds; per-call credit pricing applies beyond the free tier, and its terms bar reselling raw responses as a competing data service.",
+      "summary": "Unofficial paid HTTP and MCP API with a limited free credit allowance for NFL play-by-play, model metrics, statistics, injuries, depth charts, snap counts, and bookmaker odds; its terms restrict standalone data redistribution and raw odds feeds, while separately open-licensed upstream data retains its own terms. Coverage and accuracy beyond the public documentation have not been independently qualified.",
       "title": "EndzoneAPI",
       "visibility": "public"
     },

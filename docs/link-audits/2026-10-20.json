@@ -1,0 +1,1533 @@
+{
+  "schemaVersion": "1.0",
+  "projectId": "awesome-nfl-data",
+  "catalogSha256": "ead8b0f7988a8ac9955e4fe7db184c8356c14750b33b2731eb18fa26714f6aa5",
+  "startedAt": "2026-10-20T19:31:24+00:00",
+  "completedAt": "2026-10-20T19:31:30+00:00",
+  "boundary": "Transport observations only; HTTP success does not establish relevant content, rights, freshness, completeness, or quality.",
+  "settings": {
+    "workers": 4,
+    "timeoutSeconds": 20,
+    "transientRetries": 1,
+    "maxGetBytes": 65536
+  },
+  "summary": {
+    "blocked/authentication-required": 7,
+    "reachable": 54,
+    "redirected": 1
+  },
+  "resources": [
+    {
+      "resourceId": "awesome-nfl-data:source:r-812032f52fa57029",
+      "url": "https://www.nfl.com/scores",
+      "observedAt": "2026-10-20T19:31:24+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nfl.com/scores",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:24+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nfl.com/scores",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-f0e437a2610b834b",
+      "url": "https://www.nfl.com/stats/player-stats/",
+      "observedAt": "2026-10-20T19:31:24+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nfl.com/stats/player-stats/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:24+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nfl.com/stats/player-stats/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-589833e53f4cd540",
+      "url": "https://nextgenstats.nfl.com/",
+      "observedAt": "2026-10-20T19:31:24+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://nextgenstats.nfl.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:24+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://nextgenstats.nfl.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-4d7f5a560a7b20a1",
+      "url": "https://operations.nfl.com/game-operations-logistics/technology/performance-tracking-data-next-gen-stats",
+      "observedAt": "2026-10-20T19:31:24+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://operations.nfl.com/game-operations-logistics/technology/performance-tracking-data-next-gen-stats",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:24+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://operations.nfl.com/game-operations-logistics/technology/performance-tracking-data-next-gen-stats",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-cc19d1a649c6f939",
+      "url": "https://operations.nfl.com/programs-initiatives/innovation/big-data-bowl",
+      "observedAt": "2026-10-20T19:31:24+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://operations.nfl.com/programs-initiatives/innovation/big-data-bowl",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:24+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://operations.nfl.com/programs-initiatives/innovation/big-data-bowl",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-44aa20af7e5ea6f5",
+      "url": "https://www.nfl.com/draft/tracker",
+      "observedAt": "2026-10-20T19:31:24+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nfl.com/draft/tracker",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:24+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nfl.com/draft/tracker",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-27bd14bb79404b5d",
+      "url": "https://www.nfl.com/combine",
+      "observedAt": "2026-10-20T19:31:24+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nfl.com/combine",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:24+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nfl.com/combine",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-d7b08b28a1498494",
+      "url": "https://www.nfl.com/injuries/",
+      "observedAt": "2026-10-20T19:31:24+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nfl.com/injuries/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:24+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nfl.com/injuries/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-b5fbe5e676f66697",
+      "url": "https://www.nfl.com/transactions/",
+      "observedAt": "2026-10-20T19:31:24+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nfl.com/transactions/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:24+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nfl.com/transactions/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-cbd92eb1c4e715f9",
+      "url": "https://operations.nfl.com/rules-officiating/2026-nfl-rulebook",
+      "observedAt": "2026-10-20T19:31:24+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://operations.nfl.com/rules-officiating/2026-nfl-rulebook",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:24+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://operations.nfl.com/rules-officiating/2026-nfl-rulebook",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-bd6b1885249bb4ed",
+      "url": "https://www.nfl.com/playerhealthandsafety/health-and-wellness/injury-data/injury-data",
+      "observedAt": "2026-10-20T19:31:24+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nfl.com/playerhealthandsafety/health-and-wellness/injury-data/injury-data",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:24+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nfl.com/playerhealthandsafety/health-and-wellness/injury-data/injury-data",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-c90cebe61b27d611",
+      "url": "https://nflverse.nflverse.com/",
+      "observedAt": "2026-10-20T19:31:24+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://nflverse.nflverse.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:24+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://nflverse.nflverse.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-a6636dc75d6a6656",
+      "url": "https://github.com/nflverse/nflverse-data",
+      "observedAt": "2026-10-20T19:31:24+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/nflverse/nflverse-data",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:24+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/nflverse/nflverse-data",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-63b3ccbe28d4192f",
+      "url": "https://github.com/nflverse/nfldata",
+      "observedAt": "2026-10-20T19:31:25+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/nflverse/nfldata",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:25+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/nflverse/nfldata",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-d17a9cd8e35c7455",
+      "url": "https://nflreadr.nflverse.com/articles/nflverse_data_schedule.html",
+      "observedAt": "2026-10-20T19:31:25+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://nflreadr.nflverse.com/articles/nflverse_data_schedule.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:25+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://nflreadr.nflverse.com/articles/nflverse_data_schedule.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-a370b6e37a23662f",
+      "url": "https://nflreadpy.nflverse.com/",
+      "observedAt": "2026-10-20T19:31:25+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://nflreadpy.nflverse.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:25+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://nflreadpy.nflverse.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-b25580260b83e0d4",
+      "url": "https://nflreadr.nflverse.com/",
+      "observedAt": "2026-10-20T19:31:25+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://nflreadr.nflverse.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:25+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://nflreadr.nflverse.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-09aba6ce052355b7",
+      "url": "https://nflfastr.com/",
+      "observedAt": "2026-10-20T19:31:25+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://nflfastr.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:25+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://nflfastr.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-7da9985cae71e72d",
+      "url": "https://sportsdata.io/developers/api-documentation/nfl",
+      "observedAt": "2026-10-20T19:31:25+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://sportsdata.io/developers/api-documentation/nfl",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:25+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://sportsdata.io/developers/api-documentation/nfl",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-8e5907ec21130b03",
+      "url": "https://developer.sportradar.com/football/docs/nfl-ig-api-basics",
+      "observedAt": "2026-10-20T19:31:25+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://developer.sportradar.com/football/docs/nfl-ig-api-basics",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:25+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://developer.sportradar.com/football/docs/nfl-ig-api-basics",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-e63736b9d399ee83",
+      "url": "https://endzoneapi.com/",
+      "observedAt": "2026-10-20T19:31:25+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://endzoneapi.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:25+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://endzoneapi.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-7bd8a46a07b5fc67",
+      "url": "https://ftnfantasy.com/stats/sports-data",
+      "observedAt": "2026-10-20T19:31:25+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://ftnfantasy.com/stats/sports-data",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:25+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://ftnfantasy.com/stats/sports-data",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:31:25+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://ftnfantasy.com/stats/sports-data",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-d1d0a08ff0d39d75",
+      "url": "https://sumersports.com/",
+      "observedAt": "2026-10-20T19:31:25+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://sumersports.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:25+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://sumersports.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-2c7c6f11739b3c00",
+      "url": "https://www.pff.com/nfl",
+      "observedAt": "2026-10-20T19:31:25+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.pff.com/nfl",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:25+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pff.com/nfl",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-274e1e7f647c193e",
+      "url": "https://www.sportsinfosolutions.com/football/",
+      "observedAt": "2026-10-20T19:31:25+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.sportsinfosolutions.com/football/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:25+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sportsinfosolutions.com/football/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-bbe370c571587570",
+      "url": "https://rbsdm.com/",
+      "observedAt": "2026-10-20T19:31:25+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://rbsdm.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:25+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://rbsdm.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-cdeec59b935fb0e3",
+      "url": "https://www.nfeloapp.com/",
+      "observedAt": "2026-10-20T19:31:26+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nfeloapp.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:26+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nfeloapp.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-5eb361724354ddfa",
+      "url": "https://www.nopunt.com/",
+      "observedAt": "2026-10-20T19:31:26+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nopunt.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:26+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nopunt.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-0d0c96ccabfd17f3",
+      "url": "https://www.espn.com/analytics/",
+      "observedAt": "2026-10-20T19:31:26+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.espn.com/analytics/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:26+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.espn.com/analytics/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-68d2fd60b82d4481",
+      "url": "https://www.unexpectedpoints.com/",
+      "observedAt": "2026-10-20T19:31:26+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.unexpectedpoints.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:26+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.unexpectedpoints.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-a716081a967608f1",
+      "url": "https://www.pro-football-reference.com/",
+      "observedAt": "2026-10-20T19:31:26+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.pro-football-reference.com/",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:26+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.pro-football-reference.com/",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:31:26+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.pro-football-reference.com/",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-2a0bb0cdf90ba474",
+      "url": "https://stathead.com/football/",
+      "observedAt": "2026-10-20T19:31:26+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.sports-reference.com/stathead/football/",
+      "redirectChain": [
+        {
+          "status": 301,
+          "from": "https://stathead.com/football/",
+          "to": "https://www.sports-reference.com/stathead/football/"
+        }
+      ],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": true,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:26+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.sports-reference.com/stathead/football/",
+          "redirectChain": [
+            {
+              "status": 301,
+              "from": "https://stathead.com/football/",
+              "to": "https://www.sports-reference.com/stathead/football/"
+            }
+          ],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:31:26+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.sports-reference.com/stathead/football/",
+          "redirectChain": [
+            {
+              "status": 301,
+              "from": "https://stathead.com/football/",
+              "to": "https://www.sports-reference.com/stathead/football/"
+            }
+          ],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-4613fcc459b9987c",
+      "url": "https://www.footballdb.com/",
+      "observedAt": "2026-10-20T19:31:26+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.footballdb.com/",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:26+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.footballdb.com/",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:31:26+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.footballdb.com/",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-5e0e684d678598a6",
+      "url": "https://www.profootballarchives.com/",
+      "observedAt": "2026-10-20T19:31:26+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.profootballarchives.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:26+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.profootballarchives.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-e7ec8200271d32df",
+      "url": "https://overthecap.com/",
+      "observedAt": "2026-10-20T19:31:26+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://overthecap.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:26+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://overthecap.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-9737c2f53cd676f4",
+      "url": "https://www.spotrac.com/nfl/",
+      "observedAt": "2026-10-20T19:31:27+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.spotrac.com/nfl/",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:26+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.spotrac.com/nfl/",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:31:27+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.spotrac.com/nfl/",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-e644c6e0477df8b0",
+      "url": "https://nflplotr.nflverse.com/",
+      "observedAt": "2026-10-20T19:31:26+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://nflplotr.nflverse.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:26+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://nflplotr.nflverse.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-c4c793dd5eff0b39",
+      "url": "https://www.nfl4th.com/",
+      "observedAt": "2026-10-20T19:31:27+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nfl4th.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:27+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nfl4th.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-4f038eb8504025d0",
+      "url": "https://pola.rs/",
+      "observedAt": "2026-10-20T19:31:27+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://pola.rs/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:27+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://pola.rs/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-e567e1e36a985882",
+      "url": "https://duckdb.org/",
+      "observedAt": "2026-10-20T19:31:27+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://duckdb.org/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:27+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://duckdb.org/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-913dda39f3813b30",
+      "url": "https://www.youtube.com/@TheQBSchool",
+      "observedAt": "2026-10-20T19:31:27+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@TheQBSchool",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:27+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@TheQBSchool",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-fe0acf8ea00632f0",
+      "url": "https://www.youtube.com/@ThinkingFootball",
+      "observedAt": "2026-10-20T19:31:27+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@ThinkingFootball",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:27+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@ThinkingFootball",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-c3f4b3cbcaaa72c2",
+      "url": "https://www.youtube.com/@TAFootballShow",
+      "observedAt": "2026-10-20T19:31:27+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@TAFootballShow",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:27+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@TAFootballShow",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-55676923c2f745f7",
+      "url": "https://www.youtube.com/@BrettKollmann",
+      "observedAt": "2026-10-20T19:31:27+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@BrettKollmann",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:27+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@BrettKollmann",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-a5afe5815a1e2aea",
+      "url": "https://www.youtube.com/@BootlegFootball",
+      "observedAt": "2026-10-20T19:31:27+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@BootlegFootball",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:27+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@BootlegFootball",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-5ac671d73c0c448e",
+      "url": "https://www.youtube.com/@kurtwarnerqbc",
+      "observedAt": "2026-10-20T19:31:27+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@kurtwarnerqbc",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:27+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@kurtwarnerqbc",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-1f8ca3536185d14c",
+      "url": "https://www.matchquarters.com/",
+      "observedAt": "2026-10-20T19:31:27+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.matchquarters.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:27+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.matchquarters.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-c5ac0ebfa5cd3799",
+      "url": "https://www.youtube.com/@NFLFilms",
+      "observedAt": "2026-10-20T19:31:28+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/nflfilms",
+      "redirectChain": [
+        {
+          "status": 303,
+          "from": "https://www.youtube.com/@NFLFilms",
+          "to": "https://www.youtube.com/nflfilms"
+        }
+      ],
+      "error": null,
+      "classification": "redirected",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:28+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/nflfilms",
+          "redirectChain": [
+            {
+              "status": 303,
+              "from": "https://www.youtube.com/@NFLFilms",
+              "to": "https://www.youtube.com/nflfilms"
+            }
+          ],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-c0ada89810e5cd48",
+      "url": "https://podcasts.apple.com/us/podcast/the-athletic-football-show-a-show-about-the-nfl/id1528622068",
+      "observedAt": "2026-10-20T19:31:28+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://podcasts.apple.com/us/podcast/the-athletic-football-show-a-show-about-the-nfl/id1528622068",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:28+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://podcasts.apple.com/us/podcast/the-athletic-football-show-a-show-about-the-nfl/id1528622068",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-9bf089b9dc2797b4",
+      "url": "https://www.espn.com/espnradio/podcast/archive/_/id/2544457",
+      "observedAt": "2026-10-20T19:31:28+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.espn.com/espnradio/podcast/archive/_/id/2544457",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:28+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.espn.com/espnradio/podcast/archive/_/id/2544457",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-8daf5b39402cf8fa",
+      "url": "https://podcasts.apple.com/us/podcast/check-the-mic-with-steve-palazzolo-sam-monson/id1761398472",
+      "observedAt": "2026-10-20T19:31:28+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://podcasts.apple.com/us/podcast/check-the-mic-with-steve-palazzolo-sam-monson/id1761398472",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:28+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://podcasts.apple.com/us/podcast/check-the-mic-with-steve-palazzolo-sam-monson/id1761398472",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-354b37c7ff3c607d",
+      "url": "https://www.espn.com/espnradio/podcast/archive?id=15230808",
+      "observedAt": "2026-10-20T19:31:28+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.espn.com/espnradio/podcast/archive?id=15230808",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:28+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.espn.com/espnradio/podcast/archive?id=15230808",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-43820fc2e915c18b",
+      "url": "https://www.nfl.com/podcasts/nfl-daily",
+      "observedAt": "2026-10-20T19:31:28+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nfl.com/podcasts/nfl-daily",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:28+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nfl.com/podcasts/nfl-daily",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-35c2dd2d2271db7e",
+      "url": "https://opensourcefootball.com/posts/2020-09-28-nflfastr-ep-wp-and-cp-models/",
+      "observedAt": "2026-10-20T19:31:28+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://opensourcefootball.com/posts/2020-09-28-nflfastr-ep-wp-and-cp-models/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:28+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://opensourcefootball.com/posts/2020-09-28-nflfastr-ep-wp-and-cp-models/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-2bf8dc807f541b0c",
+      "url": "https://nflreadr.nflverse.com/articles/dictionary_pbp.html",
+      "observedAt": "2026-10-20T19:31:28+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://nflreadr.nflverse.com/articles/dictionary_pbp.html",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:28+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://nflreadr.nflverse.com/articles/dictionary_pbp.html",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-0431900c05c6dfa8",
+      "url": "https://ftnfantasy.com/stats/nfl/team-total-dvoa",
+      "observedAt": "2026-10-20T19:31:29+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://ftnfantasy.com/stats/nfl/team-total-dvoa",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:28+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://ftnfantasy.com/stats/nfl/team-total-dvoa",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:31:29+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://ftnfantasy.com/stats/nfl/team-total-dvoa",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-9688af59c2e916e3",
+      "url": "https://www.pro-football-reference.com/about/glossary.htm",
+      "observedAt": "2026-10-20T19:31:29+00:00",
+      "method": "GET",
+      "httpStatus": 403,
+      "finalUrl": "https://www.pro-football-reference.com/about/glossary.htm",
+      "redirectChain": [],
+      "error": "Forbidden",
+      "classification": "blocked/authentication-required",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:29+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.pro-football-reference.com/about/glossary.htm",
+          "redirectChain": [],
+          "error": "Forbidden"
+        },
+        {
+          "method": "GET",
+          "observedAt": "2026-10-20T19:31:29+00:00",
+          "httpStatus": 403,
+          "finalUrl": "https://www.pro-football-reference.com/about/glossary.htm",
+          "redirectChain": [],
+          "error": "Forbidden"
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-61876ffd9970a75f",
+      "url": "https://github.com/nflverse/nflverse-data-archives",
+      "observedAt": "2026-10-20T19:31:29+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/nflverse/nflverse-data-archives",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:29+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/nflverse/nflverse-data-archives",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-1ceb173d4353412f",
+      "url": "https://github.com/fivethirtyeight/nfl-elo-game",
+      "observedAt": "2026-10-20T19:31:29+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/fivethirtyeight/nfl-elo-game",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:29+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/fivethirtyeight/nfl-elo-game",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-f88f74007e170d1d",
+      "url": "https://github.com/nflverse/nfl_data_py",
+      "observedAt": "2026-10-20T19:31:29+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/nflverse/nfl_data_py",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:29+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/nflverse/nfl_data_py",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-e3b4700d80cf2980",
+      "url": "https://www.advancedfootballanalytics.com/",
+      "observedAt": "2026-10-20T19:31:29+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://www.advancedfootballanalytics.com/",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:29+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://www.advancedfootballanalytics.com/",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "resourceId": "awesome-nfl-data:source:r-f4ba509cbcc833f3",
+      "url": "https://podcasts.apple.com/us/podcast/nfl-news-hub/id915544088",
+      "observedAt": "2026-10-20T19:31:29+00:00",
+      "method": "HEAD",
+      "httpStatus": 200,
+      "finalUrl": "https://podcasts.apple.com/us/podcast/nfl-news-hub/id915544088",
+      "redirectChain": [],
+      "error": null,
+      "classification": "reachable",
+      "crossDomainRedirect": false,
+      "contentReview": "not-performed",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "observedAt": "2026-10-20T19:31:29+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://podcasts.apple.com/us/podcast/nfl-news-hub/id915544088",
+          "redirectChain": [],
+          "error": null
+        }
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@
 Maintained by [Jovani Pink](https://github.com/JovaniPink), with support from The Measured
 Studios and community contributors. This public catalog helps people discover useful
 sources for NFL data and analysis and understand their limitations. Everyone is welcome to
-[suggest a source, report a correction, or contribute](contributing.md); no coding is
+[suggest a source, report a correction, or contribute](#contributing); no coding is
 required to open an issue. See [reuse and attribution](LICENSING.md).
 
 Last reviewed: August 2026.
@@ -155,15 +155,15 @@ Useful for reproducibility and historical work, but not recommended as the defau
 
 ## Choosing a Data Stack
 
-| Goal                               | Start with                                  | Add when needed                                        |
-| ---------------------------------- | ------------------------------------------- | ------------------------------------------------------ |
+| Goal                               | Start with                                  | Add when needed                                             |
+| ---------------------------------- | ------------------------------------------- | ----------------------------------------------------------- |
 | Live preseason schedules/results   | NFL Scores                                  | Licensed Sportradar or SportsDataIO feed for production use |
-| Personal analysis or modeling      | nflverse + nflreadpy/nflreadr               | DuckDB, FTN charting, Pro Football Reference           |
-| Scheme and film research           | The QB School + Thinking Football           | MatchQuarters, FTN, SumerSports                        |
-| Historical fact-checking           | Pro Football Reference                      | Stathead, Pro Football Archives                        |
-| Contracts and cap analysis         | Over the Cap                                | Spotrac cross-checks and source timestamps             |
-| Player-tracking research           | Big Data Bowl releases                      | Public Next Gen Stats derived metrics                  |
-| Production scores or live products | Licensed Sportradar or SportsDataIO feed    | nflverse historical enrichment and specialist charting |
+| Personal analysis or modeling      | nflverse + nflreadpy/nflreadr               | DuckDB, FTN charting, Pro Football Reference                |
+| Scheme and film research           | The QB School + Thinking Football           | MatchQuarters, FTN, SumerSports                             |
+| Historical fact-checking           | Pro Football Reference                      | Stathead, Pro Football Archives                             |
+| Contracts and cap analysis         | Over the Cap                                | Spotrac cross-checks and source timestamps                  |
+| Player-tracking research           | Big Data Bowl releases                      | Public Next Gen Stats derived metrics                       |
+| Production scores or live products | Licensed Sportradar or SportsDataIO feed    | nflverse historical enrichment and specialist charting      |
 
 Keep these categories distinct in a data model:
 
@@ -194,5 +194,4 @@ Help make this catalog more useful: suggest a source, report a broken link, impr
 limitation, or clarify an explanation. First-time contributors are welcome, and opening
 an issue does not require coding. Start with the [contribution guide](contributing.md).
 We review evidence and disclose affiliations; inclusion is not endorsement or a grant
-of rights to third-party data. See [reuse and attribution](LICENSING.md) and our
-[Code of Conduct](code-of-conduct.md).
+of rights to third-party data. Please follow our [Code of Conduct](code-of-conduct.md).
